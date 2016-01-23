@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $email_address = $_POST['email'];
 
             // Create the email and send the message
-            $to = 'block2150@gmail.com'; // Add your email address in between the '' replacing support@wpsolutiongroup.com - This is where the form will send a message to.
+            $to = 'carrierandall@gmail.com'; // Add your email address in between the '' replacing support@wpsolutiongroup.com - This is where the form will send a message to.
 
             $email_subject = "Laurel Legacy Regitration:  $name";
             $email_body = $template;
