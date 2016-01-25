@@ -173,7 +173,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <input type="text" class="form-control" name="zip" id="zip" value="<?php echo $_POST['zip']; ?>" placeholder="Zip" />
                                 </div>
                             </div>
-                            <label class="control-label">Wad</label>
+                            <label class="control-label">Ward</label>
                             <div class="row m-b-15">
                                 <div class="col-md-12">
                                     <input type="text" class="form-control" name="ward" id="ward" value="<?php echo $_POST['ward']; ?>" placeholder="Ward" />
